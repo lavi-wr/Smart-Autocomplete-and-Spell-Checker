@@ -118,7 +118,7 @@ int main() {
     tr t;
     vector<string> dict;
 
-    ifstream fin("words.txt");
+    ifstream fin("../data/words.txt");
     string w;
     while(fin >> w) {
         dict.push_back(w);
@@ -155,7 +155,7 @@ int main() {
             if(c == 'y' || c == 'Y') {
                 dict.push_back(s);
                 t.add(s);
-                ofstream fout("words.txt", ios::app);
+                ofstream fout("../data/words.txt", ios::app);
                 fout << "\n" << s;
                 cout << green << "added ✅\n" << reset;
             }
