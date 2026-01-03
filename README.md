@@ -37,10 +37,7 @@ The program provides prefix-based word suggestions and recommends the closest ma
 ---
 
 
-## Additional Details 
-
-
-technologies_used:
+## Technologies_used:
   - C++
   - Trie Data Structure
   - Levenshtein (Edit Distance) Algorithm
@@ -50,22 +47,34 @@ technologies_used:
       - algorithm
   - File Handling
 
-how_it_works:
+---
+
+## How_it_works:
   - Words from data/words.txt are loaded into a Trie
   - User enters a word or prefix
   - If matches exist, autocomplete suggestions are shown
   - If no match exists, closest words are suggested using edit distance
   - Users can add new words to the dictionary dynamically
 
-how_to_run:
-  compile:
+---
+
+
+## How_to_run:
+
+  ### Compile:
+  ```bash
     - cd src
     - g++ main.cpp -o main
-  run:
+
+```
+  ### Run:
+  ```bash
     - ./main
+
+```
   note: Ensure data/words.txt exists relative to the project root
 
-sample_output:
+## Sample_output:
   - "✨ autocomplete + spell check ✨"
   - "enter word or prefix (exit to quit): app"
   - "found:"
@@ -73,17 +82,21 @@ sample_output:
   - "➤ application"
   - "➤ apply"
 
-learning_outcomes:
+---
+
+## Learning_outcomes:
   - Implemented Trie-based searching for fast autocomplete
   - Applied edit distance algorithm for spell correction
   - Used recursion and DFS for word traversal
   - Gained hands-on experience with file I/O in C++
   - Practiced clean project structure and Git usage
 
-author:
+---
+
+ ## Author:
   name: Lavanya Agrawal
 
-future_improvements:
+## Future_improvements:
   - Case-insensitive search
   - Limit suggestions using priority queues
   - Improve performance for large dictionaries
