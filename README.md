@@ -17,24 +17,29 @@ The program provides prefix-based word suggestions and recommends the closest ma
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
-DSPROJECT/
-│
-├── data/
+
+├── data
+
 │ └── words.txt
-│
-├── src/
-│ └── main.cpp
-│
+
+├── src
+
+│ ├── main.cpp
+
+│ └── main.exe
+
 ├── .gitignore
+
 └── README.md
 
 ---
 
-## Additional Details (YAML)
 
-```yaml
+## Additional Details 
+
+
 technologies_used:
   - C++
   - Trie Data Structure
