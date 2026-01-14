@@ -19,20 +19,15 @@ The program provides prefix-based word suggestions and recommends the closest ma
 
 ## 📁 Project Structure
 
-
+```
 ├── data
-
 │ └── words.txt
-
 ├── src
-
 │ ├── main.cpp
-
 │ └── main.exe
-
 ├── .gitignore
-
 └── README.md
+```
 
 ---
 
